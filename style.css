@@ -1,0 +1,165 @@
+@font-face {
+    font-family: MTAVRULI;
+    src: url('front/bpg_nino_mtavruli_bold.ttf');
+}
+
+@font-face {
+    font-family: ARIAL;
+    src: url('front/bpg_arial_2009.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.a_decorationa a{
+    text-decoration: none;
+}
+
+.navbar{
+    z-index: 1;
+    top: 42px;
+}
+
+.sub-nav{
+    background-color: #404040c9;
+    z-index: 1;
+}
+
+.carousel-item{
+    height: 731px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu a{
+    margin-left: 26px;
+}
+.dropdown-menu{
+    font-family: Arial;
+    font-size: 14px;
+
+
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+.lang a, .menu a{
+    font-size: 15px;
+    color: #fff;
+    padding: 12px 0 8px;
+    display: inline-block;
+    font-family: MTAVRULI;
+}
+.logo_zz{
+    padding-top: 12px;
+}
+.nav-link{
+    font-family: MTAVRULI;
+    font-size: 17px;
+    color: #6b6b6b;
+}
+.img_fr{
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.navbar-collapse ul {
+    align-items: center;
+}
+.dogimg_class{
+    padding-bottom: 10px ;
+}
+.nav-link img{
+    padding-right: 13px;
+}
+
+.text_slider{
+    margin-top: 157px;
+}
+.text_slider h1{
+  font-size: 24px;
+  font-family: MTAVRULI;
+  margin-bottom: 18px;
+}
+
+.text_slider a{
+    font-size: 17px;
+    font-family: MTAVRULI;
+    display: inline-block;
+    background-color: #e23848;
+    padding: 15px 35px 10px;
+    color: #fff;
+  }
+
+.text_slider p{
+    font-family: ARIAL;
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 45px;
+}
+
+.information{
+    padding-top: 30px;
+    background: #f8f8f8;
+}
+.border_2{
+    width: 209px;
+    height: 109px;
+    background-color: #ffffff;
+    border: 1px solid #d2d2d2;
+    border-radius: 1px;
+}
+.padding{
+    padding-right: 38px;
+}
+.mismpolo1_img{
+    padding: 11px 0 0 0;
+}
+.royal2_img{
+    padding: 20px 0 0 2px;
+}
+.nutranuggets_img{
+    padding: 38px 0 0 0;
+}
+.tasteofthewilde_img{
+    padding: 29px 3px 0 0;
+}
+.trixie_img{
+    padding: 16px 0 0 17px;
+}
+
+.copyriting, .created_by{
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #828282;
+    font-weight: bold;
+    font-family: Mtavruli;
+} 
+.inf_en{
+    padding: 35px 10px 18px 0;
+}
+
+
+.dropdown_21{
+    width: 274px;
+    height: 188px;
+}
+.dropdown_21 a{
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+    padding-bottom: 17px;
+    padding: 12px 0 11px 17px;
+}
+
+
+
+
+
+@media (min-width: 1400px){
+   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1122px;
+} 
+}
